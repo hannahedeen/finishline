@@ -1,0 +1,74 @@
+body {
+   overflow-x: hidden;
+   background-color: rgb(235,235,235);
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page-title{
+   margin: 0;
+   border:none;
+   padding: 0.50%;
+   background-color: #fff;
+
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+}
+
+#scrollable {
+    border: 1px solid #999;
+    width: 700px;
+    height: 500px;
+    overflow: auto;
+    position:relative;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    /*overflow: scrollable;*/
+}
+.speech-bubble-bot {
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    float: left;
+}
+
+.speech-bubble-user {
+    background-color: #f8f8cc;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 110px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    float: right;
+}
+
+.speech-bubble-bot .arrow {
+    border-style: solid;
+    position: absolute;
+}
+.speech-bubble-user .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.bottom {
+    border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+footer{
+position:fixed;
+   left:0px;
+   bottom:0px;
+}
